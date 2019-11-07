@@ -1,0 +1,5 @@
+arreglosDinamicos.x :: arreglosDinamicos.cpp
+	g++ arreglosDinamicos.cpp -o arreglosDinamicos.x
+
+clean ::
+	rm arreglosDinamicos.x
